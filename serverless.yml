@@ -10,7 +10,7 @@
 #    docs.serverless.com
 #
 # Happy Coding!
-service: serverless_rest_api_poc
+service: serverlessRestApiPoc
 provider:
   name: aws
   runtime: dart
