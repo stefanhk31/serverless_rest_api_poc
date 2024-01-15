@@ -31,7 +31,7 @@ jobs:
   # see https://serverless.com/framework/docs/providers/aws/guide/credentials/
   # for more information
   deploy:
-    if: github.ref == 'refs/heads/master'
+  #  if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
