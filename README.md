@@ -6,6 +6,11 @@
 
 A Very Good Project created by Very Good CLI.
 
+
+## Building via docker
+
+ docker run --rm -v ${PWD}:/app -w /app dart ./build.sh
+
 ## Installation 💻
 
 **❗ In order to start using Serverless Rest Api Poc you must have the [Dart SDK][dart_install_link] installed on your machine.**

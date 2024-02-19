@@ -6,3 +6,7 @@
 build/
 pubspec.lock
 node_modules
+
+bootstrap
+
+bootstrap.zip
