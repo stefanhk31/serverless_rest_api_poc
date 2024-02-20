@@ -4,12 +4,11 @@ import 'package:aws_lambda_dart_runtime/aws_lambda_dart_runtime.dart';
 void main() async {
   /// This demo's handling an API Gateway request.
   final Handler<AwsApiGatewayEvent> handler = (context, event) async {
+    print('Running at ${DateTime.now()}');
     print('Request ID: ${context.requestId}');
     print('Request body: ${event.body}');
 
     final response = {'message': 'hello ${event.body ?? 'world'}'};
-
-    /// it returns an encoded response to the gateway
     return AwsApiGatewayResponse.fromJson(response);
   };
 
